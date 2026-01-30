@@ -9,8 +9,8 @@ Turns on and blinks a light emitting diode(LED) connected to digital pin 13, whe
 4. 220Ω Resistor
 5. Breadboard
 6. Connecting Wires
-7. ## Process:
-8. We first initialize the LED pin as output and button pin as output.
+ ## Process:
+   - We first initialize the LED pin as output and button pin as input.
    - Inside the void loop, we check if the button is pressed. If yes, the button state is high and the LED blinks. 
    - Blinking speed is controlled by delay(100).
      Blinking happens by setting the pin to high for 100ms and then setting it to low by dropping voltage to 0V.
